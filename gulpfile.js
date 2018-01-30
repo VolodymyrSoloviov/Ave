@@ -33,13 +33,13 @@ var moduleJs = [
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
-  'app/bower/jquery/dist/jquery.min.js', 
-  'app/bower/owl-carousel/owl-carousel/owl.carousel.min.js'
+  //'app/bower/jquery/dist/jquery.min.js', 
+  //'app/bower/owl-carousel/owl-carousel/owl.carousel.min.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам css
 var vendorCss = [
   'app/bower/normalize-css/normalize.css', 
-  'app/bower/owl-carousel/owl-carousel/owl.carousel.css'
+  //'app/bower/owl-carousel/owl-carousel/owl.carousel.css'
   ];
 
 // Запускаем сервер. Предварительно выполнив задачи ['html', 'styles', 'images',
