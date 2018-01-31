@@ -10,6 +10,8 @@ html, body {
 body {
 	font-family: 'Montserrat';
 	font-weight: 400;
+	font-size: 14px;
+	color: $gray;
 	line-height: 1.42;
 	-webkit-font-smoothing: antialiased;
 }
@@ -56,8 +58,10 @@ h6 {
 	font-weight: normal;
 }
 
-.clearfix:after {
-	content: "";
-	display: block;
-	clear: both;
+%clearfix {
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
 }

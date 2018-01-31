@@ -1,8 +1,13 @@
 //layout vars
-$container-width: 940px;
-$footer-height: 50px;
+$container-width: 1170px;
+$footer-height: 634px;
 
 //colors
+$light-gray: #727272;
+$gray: #8e8c8c;
+$dark-gray: #575153;
+$aqua: #00c8c8;
+$white: #fff;
 
 
 //layout
@@ -11,7 +16,7 @@ $footer-height: 50px;
 @import "layout/fonts";
 
 //sections
-@import "sections/first";
+@import "sections/header";
 @import "sections/second";
 @import "sections/third";
 
