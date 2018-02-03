@@ -1,5 +1,5 @@
 .header {
-	height: 1027px;
+	max-height: 1027px;
 }
 
 .header__top {
@@ -295,4 +295,40 @@
 
 .sale__top {
 	font-weight: 700;
+}
+
+.active {
+	color: $aqua;
+}
+
+.header__brand {
+	height: 450px;
+	background: url("../img/bg/brand.png") no-repeat;
+	background-size: cover;
+	background-color: #ddd;
+}
+
+.brand__bg-color {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	background-color: rgba(51, 51, 51, .75);
+	color: $white;
+	text-transform: uppercase;
+}
+
+.brand_title {
+	font-size: 48px;
+	font-weight: 300;
+	margin-bottom: 20px;
+
+	span {
+		font-weight: 700;
+	}
+}
+
+.brand__slogan {
+	font-size: 30px;
 }
