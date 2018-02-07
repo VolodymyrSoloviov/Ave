@@ -16,29 +16,31 @@
     <header class="header">
       <div class="header__top">
         <div class="container">
-          <div class="currency">
-            <span class="currency__text">Currency&nbsp;&nbsp;:</span>
-            <a href="#" class="currency__link">
-              <span class="currency__link-text">GBP</span>
-              <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="register">
-            <a href="#" class="register__link">Register</a>
-          </div>
-          <div class="sign-in">
-            <a href="#" class="sign-in__link">Sign In</a>
-          </div>
-          <div class="empty">
-            <div class="empty_container">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              <a href="#" class="empty__link">
-                <span class="empty__link-text">empty</span>
+          <div class="header__top-wrapper">
+            <div class="currency">
+              <span class="currency__text">Currency&nbsp;&nbsp;:</span>
+              <a href="#" class="currency__link">
+                <span class="currency__link-text">GBP</span>
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
               </a>
             </div>
+            <div class="register">
+              <a href="#" class="register__link">Register</a>
+            </div>
+            <div class="sign-in">
+              <a href="#" class="sign-in__link">Sign In</a>
+            </div>
+            <div class="empty">
+              <div class="empty_container">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <a href="#" class="empty__link">
+                  <span class="empty__link-text">empty</span>
+                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
+        </div> <!-- end container -->
       </div>
       <div class="header__bottom">
         <div class="container space-between">
@@ -158,11 +160,47 @@
                 <a href="page/the_brand.html" class="nav__link">the brand</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">local stores</a>
+                <a href="page/local_stores.html" class="nav__link">local stores</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">look book</a>
+                <a href="page/look_book.html" class="nav__link">look book</a>
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
+                <div class="dropdown">
+                  <div class="dropdown__top">
+                    <div class="dropdown__casuals">
+                      <div class="dropdown__title">Our Lookbooks</div>
+                      <ul class="dropdown__casuals-list">
+                        <li class="dropdown__casuals-item">
+                          <a href="#" class="dropdown__casuals-link">Latest Posts (mixed)</a>
+                        </li>
+                        <li class="dropdown__casuals-item">
+                          <a href="#" class="dropdown__casuals-link">Men’s Lookbook</a>
+                        </li>
+                        <li class="dropdown__casuals-item">
+                          <a href="#" class="dropdown__casuals-link">Women’s Lookbook</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="dropdown__formal">
+                      <div class="dropdown__title">Your Lookbook</div>
+                      <ul class="dropdown__formal-list">
+                        <li class="dropdown__formal-item">
+                          <a href="#" class="dropdown__formal-link">View and Edit</a>
+                        </li>
+                        <li class="dropdown__formal-item">
+                          <a href="#" class="dropdown__formal-link">Share</a>
+                        </li>
+                        <li class="dropdown__formal-item">
+                          <a href="#" class="dropdown__formal-link">Delete</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="dropdown__bottom">
+                    <div class="sale__top">Autumn sale!</div>
+                    <div class="sale__bottom">up to 50% off</div>
+                  </div>
+                </div> <!-- end dropdown -->
               </li>
             </ul>
           </nav>
@@ -172,15 +210,17 @@
         </div>
       </div>
       <div class="header__main">
-        <div class="container flex-end">
-          <div class="header__btn">
-            <a href="#" class="header__btn-link">shop men’s collection</a>
+        <div class="container">
+          <div class="header__main-wrapper">
+            <div class="header__btn">
+              <a href="#" class="header__btn-link">shop men’s collection</a>
+            </div>
           </div>
         </div>
       </div>
     </header>
     <section class="items">
-      <div class="items__container">
+      <div class="container">
         <ul class="items__list">
           <li class="items__item items__item_active">
             <a href="#" class="items__link">popular</a>
@@ -470,7 +510,7 @@
               <div class="footer__title">information</div>
               <div class="footer__links">
                 <a href="page/the_brand.html" class="footer__link">The brand</a>
-                <a href="#" class="footer__link">Local stores</a>
+                <a href="page/local_stores.html" class="footer__link">Local stores</a>
                 <a href="#" class="footer__link">Customer service</a>
                 <a href="#" class="footer__link">Privacy & cookies</a>
                 <a href="#" class="footer__link">Site map</a>

@@ -16,29 +16,31 @@
     <header class="header">
       <div class="header__top">
         <div class="container">
-          <div class="currency">
-            <span class="currency__text">Currency&nbsp;&nbsp;:</span>
-            <a href="#" class="currency__link">
-              <span class="currency__link-text">GBP</span>
-              <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </a>
-          </div>
-          <div class="register">
-            <a href="#" class="register__link">Register</a>
-          </div>
-          <div class="sign-in">
-            <a href="#" class="sign-in__link">Sign In</a>
-          </div>
-          <div class="empty">
-            <div class="empty_container">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              <a href="#" class="empty__link">
-                <span class="empty__link-text">empty</span>
+          <div class="header__top-wrapper">
+            <div class="currency">
+              <span class="currency__text">Currency&nbsp;&nbsp;:</span>
+              <a href="#" class="currency__link">
+                <span class="currency__link-text">GBP</span>
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
               </a>
             </div>
+            <div class="register">
+              <a href="#" class="register__link">Register</a>
+            </div>
+            <div class="sign-in">
+              <a href="#" class="sign-in__link">Sign In</a>
+            </div>
+            <div class="empty">
+              <div class="empty_container">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <a href="#" class="empty__link">
+                  <span class="empty__link-text">empty</span>
+                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
+        </div> <!-- end container -->
       </div>
       <div class="header__bottom">
         <div class="container space-between">
@@ -155,14 +157,50 @@
                 </div> <!-- end dropdown -->
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link active">the brand</a>
+                <a href="the_brand.html" class="nav__link active">the brand</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">local stores</a>
+                <a href="local_stores.html" class="nav__link">local stores</a>
               </li>
               <li class="nav__item">
-                <a href="#" class="nav__link">look book</a>
+                <a href="look_book.html" class="nav__link">look book</a>
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
+                <div class="dropdown">
+                  <div class="dropdown__top">
+                    <div class="dropdown__casuals">
+                      <div class="dropdown__title">Our Lookbooks</div>
+                      <ul class="dropdown__casuals-list">
+                        <li class="dropdown__casuals-item">
+                          <a href="#" class="dropdown__casuals-link">Latest Posts (mixed)</a>
+                        </li>
+                        <li class="dropdown__casuals-item">
+                          <a href="#" class="dropdown__casuals-link">Men’s Lookbook</a>
+                        </li>
+                        <li class="dropdown__casuals-item">
+                          <a href="#" class="dropdown__casuals-link">Women’s Lookbook</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="dropdown__formal">
+                      <div class="dropdown__title">Your Lookbook</div>
+                      <ul class="dropdown__formal-list">
+                        <li class="dropdown__formal-item">
+                          <a href="#" class="dropdown__formal-link">View and Edit</a>
+                        </li>
+                        <li class="dropdown__formal-item">
+                          <a href="#" class="dropdown__formal-link">Share</a>
+                        </li>
+                        <li class="dropdown__formal-item">
+                          <a href="#" class="dropdown__formal-link">Delete</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="dropdown__bottom">
+                    <div class="sale__top">Autumn sale!</div>
+                    <div class="sale__bottom">up to 50% off</div>
+                  </div>
+                </div> <!-- end dropdown -->
               </li>
             </ul>
           </nav>
@@ -178,6 +216,41 @@
         </div>
       </div>
     </header>
+    <section class="brand__content">
+      <div class="brand__content-left">
+        <div class="brand__photo brand__photo_intro" style="background-image: url('../img/content/intro.png');">
+          <img src="../img/content/intro.png" alt="" class="brand__img">
+        </div>
+        <div class="brand__our-values">
+          <div class="brand__photo brand__photo_our-values" style="background-image: url('../img/content/our-values.png');">
+            <img src="../img/content/our-values.png" alt="" class="brand__img">
+          </div>
+          <h3 class="brand__title">our values, vision and strategy</h3>
+          <h4 class="brand__caption">The above image would be a great place for an advertising video</h4>
+          <div class="brand__text">Cras maximus venenatis malesuada. Nulla sagittis elit felis, ac facilisis quam ornare aliquam. Etiam cursus odio vitae dui dignissim, sed tempus lacus tincidunt et donec sapien velit, rhoncus eu nulla a, molestie tempus mi maecenas sagittis ornare. Pellentesque sapien mi,<a href="#" class="brand__text-link"> tincidunt nec magna vitae, </a>volutpat elementum odioni lorem Aliquam tempor massa vitae augue mattis tempor id in ante ut augue erat, luctus eil.</div>
+        </div>
+      </div>
+      <div class="brand__content-right">
+        <div class="brand__intro">
+          <h3 class="brand__title">hand designed clothing</h3>
+          <h4 class="brand__caption">established in 2013, avenue fashion Sed dictum elit vel sapien luctus eras</h4>
+          <div class="brand__text">Praesent feugiat malesuada tristique maecenas rhoncus diam eget quam vestibulim consectetur, id condimentum leo porttitor. Cum sociis natoque penatibus eta magnis disut parturient montes, nascetur ridiculus mus. Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.</div>
+        </div>
+        <div class="brand__ethical-trading">
+          <div class="brand__photo brand__photo_our-values" style="background-image: url('../img/content/ethical-trading.png');">
+            <img src="../img/content/ethical-trading.png" alt="" class="brand__img">
+          </div>
+          <h3 class="brand__title">Ethical trading</h3>
+          <h4 class="brand__caption">we oversee the working conditions of the people in the supply chain</h4>
+          <div class="brand__text">Nullam dapibus consectetur neque, faucibus porttitor purus iaculis sed. Aenean eras dapibus augue, eget dignissim dui maecenas et rhoncus mim, vel semper arcu lorem Pellentesque congue justo esteir pellentesque aliquet massa eget posuere tincidunt. Cras viverra ullamcorper nunc accumsan hendrerit.<a href="#" class="brand__text-link"> A link &rarr;</a></div>
+        </div>
+        <ul class="awards__list">
+          <li class="awards__item awards__item_1"></li>
+          <li class="awards__item awards__item_2"></li>
+          <li class="awards__item awards__item_3"></li>
+        </ul>
+      </div>
+    </section>
   </div> <!-- end wrapper -->
   <footer class="footer">
     <div class="container">
@@ -187,8 +260,8 @@
             <li class="footer__item">
               <div class="footer__title">information</div>
               <div class="footer__links">
-                <a href="#" class="footer__link">The brand</a>
-                <a href="#" class="footer__link">Local stores</a>
+                <a href="the_brand.html" class="footer__link">The brand</a>
+                <a href="local_stores.html" class="footer__link">Local stores</a>
                 <a href="#" class="footer__link">Customer service</a>
                 <a href="#" class="footer__link">Privacy & cookies</a>
                 <a href="#" class="footer__link">Site map</a>

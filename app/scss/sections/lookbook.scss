@@ -87,3 +87,78 @@
 	color: #454647;
 	line-height: 60px;
 }
+
+//**lookbook-content**
+
+.lookbook-content__list {
+	display: flex;
+	margin-top: 60px;
+	border-top: 1px solid #eee;
+	padding: 60px 0;
+}
+
+.lookbook-content__item {
+	margin-right: 60px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.lookbook-content__item_active {
+	.lookbook-content__link {
+		color: $aqua;
+	}
+}
+
+.lookbook-content__link{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: $light-gray;
+	line-height: 20px;
+	transition: .3s;
+
+	&:hover {
+		color: $aqua;
+	}
+}
+
+.lookbook-content__items-list {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.lookbook-content__items-item {
+	position: relative;
+	height: 500px;
+	flex: 0 1 23.08%;
+	margin-bottom: 30px;
+	background: center center no-repeat #f8f8f8;
+	background-size: cover;
+}
+
+.lookbook-content__items-code {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 21px;
+	color: #9a9a9a;
+}
+
+.lookbook-content__items-item_long {
+	flex: 0 1 48.72%;
+}
+
+.lookbook-content__items-item_longer {
+	flex: 0 1 74.36%;
+}
+
+@each $lookbook-content__items-item in (1, 2, 3, 4, 5, 6, 7, 8, 9) {
+	.lookbook-content__items-item_#{$lookbook-content__items-item} {
+		background-image: url("../img/content/#{$lookbook-content__items-item}.png");
+	}
+}
