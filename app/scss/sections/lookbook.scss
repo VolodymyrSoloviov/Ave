@@ -137,6 +137,17 @@
 	margin-bottom: 30px;
 	background: center center no-repeat #f8f8f8;
 	background-size: cover;
+	
+	&:hover {
+		cursor: pointer;
+		box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.14);
+
+		.lookbook-content__items-hover {
+			opacity: 1;
+		}
+	}
+
+
 }
 
 .lookbook-content__items-code {
@@ -149,6 +160,69 @@
 	color: #9a9a9a;
 }
 
+.lookbook-content__items-hover {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	margin-top: 300px;
+	opacity: 0;
+	transition: .3s;
+}
+
+.lookbook-content__items-icons {
+	width: 42px;
+	height: 42px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-right: 30px;
+	transition: .3s;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&:hover {
+		background-color: $aqua;
+	}
+}
+
+.lookbook-content__items-icons_info,
+.lookbook-content__items-icons_like {
+	position: relative;
+
+	&:before {
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 30px;
+    color: #181819;
+	}
+}
+
+.lookbook-content__items-icons_info {
+
+	&:before {
+		content: "\f129";
+    left: 16px;
+	}
+}
+
+.lookbook-content__items-icons_like {
+
+	&:before {
+		content: "\f004";
+    left: 6px;
+	}
+}
+
+.lookbook-content__items-item_long,
+.lookbook-content__items-item_longer {
+	padding: 60px 15px 0;
+
+	&:hover {
+		cursor: default;
+		box-shadow: none;
+	}
+}
 .lookbook-content__items-item_long {
 	flex: 0 1 48.72%;
 }
@@ -162,3 +236,58 @@
 		background-image: url("../img/content/#{$lookbook-content__items-item}.png");
 	}
 }
+
+.lookbook-content__title {
+	font-size: 48px;
+	text-transform: uppercase;
+	color: $dark-gray;
+	font-weight: 300;
+
+	span {
+		font-weight: 700;
+	}
+}
+
+.lookbook-content__caption {
+	text-transform: uppercase;
+	font-size: 13px;
+	width: 320px;
+	color: $light-gray;
+	margin-bottom: 10px;
+}
+
+.lookbook-content__text {
+	font-family: 'robotoregular';
+	font-size: 15px;
+	line-height: 22px;
+	width: 320px;
+	margin-bottom: 30px;
+}
+
+.lookbook-content__btn {
+	height: 60px;
+	width: 180px;
+	border: 2px solid #737373;
+	transition: .3s;
+
+	&:hover {
+		background-color: $aqua;
+		border-color: $aqua;
+	}
+}
+
+.lookbook-content__btn-link {
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	line-height: 56px;
+	text-align: center;
+	color: #454647;
+	transition: .3s;
+
+	&:hover {
+		color: $white;
+	}
+}
+

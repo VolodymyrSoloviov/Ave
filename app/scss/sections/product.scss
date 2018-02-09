@@ -1,0 +1,395 @@
+.product {
+	margin-top: 60px;
+}
+
+.product__top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 35px;
+}
+
+.product__img-list,
+.product__description {
+	flex: 0 1 48.72%;
+	position: relative;
+}
+
+.product__img-arrow_left,
+.product__img-arrow_right {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -27.5px;
+	height: 55px;
+	width: 45px;
+	transition: .3s;
+
+	&:hover {
+		background-color: $aqua;
+
+		.product__img-arrow_link {
+			color: $white;
+		}
+	}
+}
+
+.product__img-arrow_left {
+	left: 0;
+	position: absolute;
+}
+
+.product__img-arrow_link {
+	width: 100%;
+	text-align: center;
+	font-size: 55px;
+	color: $dark-gray;
+	transition: .3s;
+}
+.product__img-arrow_right {
+	right: 0;
+}
+
+.product__img-item {
+	height: 710px;
+	width: 570px;
+	background: url("../img/content/classic_sweatshirt.png") center center no-repeat;
+	background-size: cover;
+}
+
+.product__title {
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 20px;
+	color: $dark-gray;
+	margin-bottom: 25px;
+}
+
+.product__review {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.product__stars {
+	color: #dfdfde;
+	flex: 0 1 185px;
+	border-right: 1px solid #989898;
+}
+
+.product__star_1,
+.product__star_2,
+.product__star_3,
+.product__star_4 {
+	color: #ded3aa;
+}
+
+.product__review-count,
+.product__review-text {
+	color: $light-gray;
+}
+
+.product__review-count {
+	margin-left: 10px;
+}
+
+.product__add-review {
+	flex: 0 1 130px;
+	border-right: 1px solid #989898;
+	text-align: center;
+}
+
+.product__add-link {
+	text-decoration: none;
+	color: #8c8c8c;
+	transition: .3s;
+	
+	&:hover {
+		color: $aqua;
+	}
+}
+
+.product__share {
+	margin-left: 15px;
+}
+
+.product__share-link {
+	text-decoration: none;
+	color: #8c8c8c;
+	margin-right: 15px;
+	transition: .3s;
+
+	&:last-child {
+			margin-right: 0;
+	}
+
+	&:first-child {
+		margin-left: 10px;
+	}
+
+	&:hover {
+		color: $aqua;
+	}
+}
+
+.product__price {
+	font-weight: 300;
+	font-size: 30px;
+	color: #9a9a9a;
+	margin-bottom: 30px;
+}
+
+.product__price-old {
+	span {
+		text-decoration: line-through;
+	}
+}
+
+.product__price-gbp {
+	font-size: 13px;
+	top: -13px;	
+	i {
+		text-decoration: line-through;
+	}
+}
+
+.product__price-new {
+	margin-left: 15px;
+}
+
+.product__availability,
+.product__code {
+	margin-bottom: 13px;
+}
+
+.product__availability-text,
+.product__code-text,
+.product__tags-text {
+	text-transform: uppercase;
+	font-size: 13px;
+	color: $dark-gray;
+}
+
+.product__existence,
+.product__code-number {
+	font-family: 'robotoregular';
+	font-size: 15px;
+	color: #8c8c8c;
+}
+
+.product__tags {
+	margin-bottom: 25px;
+}
+
+.product__tags-link {
+	text-decoration: none;
+	font-family: 'robotoregular';
+	font-size: 15px;
+	color: $aqua;
+	transition: .3s;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.product__text {
+	font-family: 'robotoregular';
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+.product__characteristic-list {
+	margin-bottom: 35px;
+}
+
+.product__characteristic-item {
+	margin-bottom: 5px;
+	list-style: disc;
+	margin-left: 15px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.product__form {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product__form-label {
+	margin-right: 30px;
+	position: relative;
+	margin-bottom: 50px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.product__form-caption {
+	text-transform: uppercase;
+	font-size: 13px;
+	color: $dark-gray;
+	margin-bottom: 10px;
+}
+
+.product__form-select {
+	width: 170px;
+	height: 35px;
+	font-weight: 300;
+	font-size: 13px;
+	outline: none;
+	padding-left: 10px;
+	color: #989898;
+	appearance: none;
+	background: url("../img/icons/down.png") 95% center no-repeat;
+}
+
+.product__form-option {
+	color: $dark-gray;
+}
+
+.product__form-input {
+	width: 70px;
+	height: 35px;
+	font-weight: 300;
+	font-size: 13px;
+	outline: none;
+	border: 1px solid #989898;
+	color: #989898;
+	padding-left: 14px;
+}
+
+.product__form-btn {
+	height: 60px;
+	width: 240px;
+	border: 2px solid #737373;
+	background-color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #454647;
+	letter-spacing: 3px;
+	transition: .3s;
+	margin-bottom: 25px;
+
+	&:hover {
+		background-color: #333;
+		border-color: #333;
+		color: $white;
+	}
+}
+
+.product__form-btn_lookbook {
+	width: 300px;
+	margin-left: 25px;
+}
+
+.product__form-btn_compare {
+	display: flex;
+	align-items: center;
+	width: 240px;
+	color: #454647;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	transition: .3s;
+	border: 0;
+	background-color: #fff;
+
+	&:hover {
+		color: $aqua;
+	}
+}
+
+.product__form-btn_icons {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #727272;
+	margin-right: 13px;
+	transition: .3s;
+
+	&:before {
+		content: "\f066";
+		font-family: FontAwesome;
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    top: 6px;
+    left: 8px;
+	}
+}
+
+//**product__bottom**
+
+.product__bottom {
+	margin-bottom: 125px;
+}
+
+.product__list {
+	display: flex;
+	height: 50px;
+	width: 100%;
+	background-color: #f8f8f8;
+	margin-bottom: 25px;
+}
+
+.product__item {
+	padding: 0 15px;
+	height: 100%;
+	margin-right: 55px;
+	transition: .3s;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&:hover {
+		background-color: #333;
+
+	.product__link {
+		color: $white;
+	}
+	}
+}
+
+.product__item_active {
+	background-color: #333;
+
+	.product__link {
+		color: $white;
+	}
+}
+
+.product__link {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 50px;
+	color: $dark-gray;
+	transition: .3s;
+}
+
+.product__info-title {
+	text-transform: uppercase;
+	font-size: 13px;
+	color: $light-gray;
+	margin-bottom: 20px;
+}
+
+.product__info-text {
+	font-family: 'robotoregular';
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 30px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
