@@ -27,8 +27,8 @@
 }
 
 .currency__link,
-.register__link,
-.sign-in__link {
+.header__register-link,
+.header__sign-in-link {
 	color: #999;
 	text-decoration: none;
 	transition: .3s;
@@ -38,12 +38,12 @@
 	}
 }
 
-.register {
+.header__register {
 	flex: 0 1 90px;
 	align-self: center;
 }
 
-.sign-in {
+.header__sign-in {
 	flex: 0 1 126px;
 	align-self: center;
 }
