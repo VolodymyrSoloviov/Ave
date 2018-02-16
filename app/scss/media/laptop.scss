@@ -1,3 +1,162 @@
 @media screen and (max-width: 992px) {
+	.container {
+		width: 730px;
+	}
 
+	.currency {
+		flex: 0 1 360px;
+	}
+
+	.logo {
+		order: 0;
+	}
+
+	.search {
+		order: 1;
+	}
+
+	.menu {
+		order: 2;
+		display: block;
+		cursor: pointer;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.header__main {
+		background-position: 40% center;
+		height: 600px;
+	}
+
+	.header__btn {
+		height: 60px;
+		width: 300px;
+		margin: 0 30px 100px 0;
+	}
+
+	.lookbook {
+		padding-bottom: 0;
+	}
+
+	.items__list {
+		justify-content: space-between;
+	}
+
+	.footer__item_lookbook {
+		display: none;
+	} 
+
+	.award {
+		padding-top: 30px;
+	}
+
+	.product__img-wrapper {
+		width: 355px;
+	}
+
+	.product__price {
+		margin-bottom: 15px;
+	}
+
+	.product__form-label {
+		margin-right: 15px;
+		margin-bottom: 40px;
+	}
+
+	.product__form-select {
+		width: 120px;
+	}
+
+	.product__form-btn,
+	.product__form-btn_lookbook {
+		width: 100%;
+	}
+
+	.product__form-btn_lookbook {
+		margin-left: 0;
+	}
+
+	.product__item {
+		margin-right: 5px;
+	}
+
+	.product__bottom {
+		margin-bottom: 60px;
+	}
+	
+	.brand__content {
+		margin-bottom: 60px;
+	}
+	
+	.awards__list {
+		width: 355px;
+	}
+
+	.local-stores__bottom {
+		margin-bottom: 60px;
+	}
+
+	.local-stores__maps-item {
+		height: auto;
+		flex-direction: column;
+	}
+
+	.local-stores__maps-left {
+		width: 100%;
+		height: 500px;
+		margin-bottom: 30px;
+	}
+
+	.local-stores__maps-right {
+		width: 100%;
+		height: auto;
+	}
+	
+	.lookbook-content__list {
+		justify-content: space-between;
+	}
+
+	.lookbook-content__item {
+		margin-right: 15px;
+	}
+
+	.lookbook-content__items-item {
+		flex: 0 1 49%;
+	}
+	
+	.lookbook-content__items-item_long {
+		flex: 0 1 100%;
+	}
+
+	.lookbook-content__items-item_longer {
+		flex: 0 1 100%;
+	}
+
+	.sign-up__wrapper {
+		flex-direction: column;
+		margin-bottom: 60px;
+	}
+
+	.sign-in {
+		flex: 0 1 100%;
+		border-right: none;
+		border-bottom: 1px solid #eee;
+		padding: 0 0 35px;
+	}
+
+	.register {
+		flex: 0 1 100%;
+		margin-top: 30px;
+		padding-left: 0;
+	}
+
+	.sign-up__links {
+		flex-wrap: nowrap;
+	}
+
+	.sign-up__links-text {
+		text-align: right;
+	}
 }

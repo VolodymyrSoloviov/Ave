@@ -63,7 +63,6 @@
 }
 
 .empty__link {
-	margin-left: 20px;
 	text-decoration: none;
 	color: $white;
 	transition: .3s;
@@ -74,7 +73,7 @@
 }
 
 .empty__link-text {
-	margin-right: 5px;
+	margin: 0 5px 0 20px;
 }
 
 .empty_container {
@@ -90,6 +89,7 @@
 .space-between {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .logo {
@@ -160,7 +160,7 @@
 }
 
 .search__input {
-	background: url(../img/icons/search.png) no-repeat 168px center;
+	background: url(../img/icons/search.png) no-repeat 95% center;
 	box-sizing: border-box;
 	width: 190px;
 	height: 30px;
@@ -338,5 +338,16 @@
 	font-size: 30px;
 }
 
+.menu {
+	display: none;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+	opacity: .6;
+	transition: .3s;
+	outline: none;
 
-
+	&:hover {
+		opacity: 1;
+	}
+}

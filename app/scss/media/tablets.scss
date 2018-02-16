@@ -1,3 +1,155 @@
 @media screen and (max-width: 768px) {
+	.container {
+		width: 460px;
+	}
+
+	.header__top-wrapper {
+		justify-content: space-between;
+	}
+
+	.currency,
+	.header__register,
+	.header__sign-in,
+	.empty {
+		flex: none;
+	}
+
+	.header__main {
+		height: 400px;
+	}
+
+	.header__btn {
+		width: 220px;
+		margin: 0 10px 60px 0;
+	}
+
+	.items__list {
+		padding: 40px 0;
+	}
+
+	.items__item {
+		margin-right: 10px;
+	}
+
+	.clothes {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.clothes__left {
+		flex: 0 1 100%;
+		margin-bottom: 20px;
+	}
+
+	.clothes__right {
+		flex: 0 1 100%;
+	}
+
+	.lookbook__photo {
+		display: none;
+	}
+
+	.footer__list {
+		padding: 0 10px;
+	}
+
+	.footer__item_information,
+	.footer__item_from-us {
+		display: none;
+	}
+
+	.award {
+		display: none;
+	}
+
+	.socials {
+		flex: 0 1 100%;
+	}
+
+	.copyright__wrapper {
+		justify-content: center;
+	}
 	
+	.copyright__developers {
+		display: none;
+	}
+
+	.lookbook__item {
+		height: auto;
+		margin-bottom: 30px;
+	}
+	
+	.lookbook__info {
+		align-items: center;
+		text-align: center;
+		margin-right: 0;
+		padding: 50px 10px;
+		margin-top: 0;
+	}
+
+	.header__brand {
+		height: 400px;
+	}
+
+	.brand_title {
+		font-size: 40px;
+	}
+
+	.brand__slogan {
+		font-size: 20px;
+	}
+
+	.product__top {
+		flex-direction: column;
+	}
+
+	.product__img-wrapper {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.product__list {
+		flex-wrap: wrap;
+		height: auto;
+	}
+
+	.product__item {
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
+	.product__link {
+		font-size: 14px;
+	}
+
+	.brand__content-wrapper {
+		flex-direction: column;
+	}
+
+	.brand__content-left,
+	.brand__content-right {
+		flex: 0 1 100%;
+	}
+
+	.lookbook-content__items-item_long,
+	.lookbook-content__items-item_longer {
+		padding-top: 30px;
+	}
+
+	.lookbook-content__caption,
+	.lookbook-content__text {
+		width: 100%;
+	}
+
+	.local-stores__list {
+		flex-wrap: wrap;
+	}
+
+	.local-stores__item {
+		margin-bottom: 30px;
+	}
+
+	.local-stores__top {
+		padding-bottom: 30px;
+	}
 }

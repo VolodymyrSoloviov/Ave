@@ -24,8 +24,10 @@ $white: #fff;
 @import "sections/local-stores";
 @import "sections/product";
 @import "sections/sign-up";
+@import "sections/menu-burger";
 
 // media
+@import "media/tv";
 @import "media/desktop";
 @import "media/laptop";
 @import "media/tablets";

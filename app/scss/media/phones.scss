@@ -1,3 +1,180 @@
 @media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.wrapper:after {
+		height: 571px;
+	}
+
+	.currency,
+	.header__register,
+	.header__sign-in {
+		font-size: 12px;
+	}
+
+	.currency__text {
+		margin-right: 0;
+	}
+
+	.empty {
+		font-size: 12px;
+		background-color: transparent;
+	}
+
+	.empty__link-text {
+		display: none;
+	}
+
+	.empty__link {
+		margin-left: 0;
+		padding: 0 5px;
+		color: #999;
+
+		&:hover {
+			color: $aqua;
+		}
+	}
+
+	.header__bottom {
+		height: auto;
+	}
+
+	.space-between {
+		padding: 10px 0;
+		flex-wrap: wrap;
+	}
+
+	.search {
+		order: 2;
+		flex: 0 1 100%;
+	}
+
+	.search__input {
+		width: 100%;
+	}
+
+	.items__list {
+		flex-direction: column;
+		padding: 10px 0;
+	}
+
+	.items__item {
+		margin: 0 0 10px 10px;
+	}
+
+	.items__link {
+		font-size: 14px;
+	}
+
+	.footer {
+		height: 571px;
+		margin-top: -571px;
+	}
+
+	.footer__item_account {
+		display: none;
+	}
+
+	.brand_title {
+		font-size: 30px;
+	}
+
+	.brand__slogan {
+		font-size: 18px;
+	}
+
+	.product__img-item,
+	.product__img-wrapper {
+		height: 500px;
+	}
+
+	.product__add-review {
+		flex: 0 1 103px;
+		padding: 0 2px;
+	}
+
+	.product__form-label,
+	.product__form-select,
+	.product__form-input {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.product__form-label {
+		margin-bottom: 20px;
+	}
+
+	.socials__item {
+		margin-right: 55px;
+	}
+
+	.product__list {
+		flex-direction: column;
+	}
+
+	.product__item {
+		margin-right: 0;
+	}
+
+	.header__brand {
+		height: 350px;
+	}
+
+	.lookbook-content__list {
+		flex-direction: column;
+		padding: 10px 0;
+	}
+
+	.lookbook-content__item {
+		margin: 0 0 10px 10px;
+	}
+
+	.lookbook-content__link {
+		font-size: 14px;
+	}
+
+	.lookbook-content__items-item {
+		flex: 0 1 100%;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.lookbook-content__items-item_long,
+	.lookbook-content__items-item_longer {
+		display: none;
+	}
+
+	.local-stores__item {
+		flex: 0 1 100%;
+	}
+
+	.local-stores__title,
+	.local-stores__address {
+		text-align: center;
+	}
+
+	.local-stores__btn {
+		width: 100%;
+	}
+
+	.sign-up__links {
+		flex-wrap: wrap;
+	}
+
+	.sign-up__btn {
+		width: 100%;
+	}
+
+	.sign-up__link {
+		margin-top: 10px;
+	}
 	
+	.sign-up__links-text {
+		text-align: left;
+	}
+
 }

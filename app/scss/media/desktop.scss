@@ -1,3 +1,111 @@
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1210px) {
+	.container {
+		width: 950px;
+	}
 
+	.nav {
+		flex: 0 1 500px;
+	}
+
+	.nav__list {
+		width: 100%;
+	}
+
+	.search {
+		flex: 0 1 150px;
+	}
+
+	.search__input {
+		width: 150px;
+	}
+
+	.nav__item:hover .dropdown {
+    left: 50%;
+    transform: translateX(-50%);
+	}
+
+	.clothes__small-item {
+		flex: 0 1 100%;
+		margin-bottom: 20px;
+	}
+
+	.clothes__big-item {
+		margin-top: 0;
+	}
+
+	.lookbook {
+		height: auto;
+	}
+
+	.lookbook__list {
+		flex-direction: column;
+	}
+
+	.lookbook__item {
+		margin-bottom: 60px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.brand__slogan {
+		text-align: center;
+	}
+
+	.product__img-wrapper {
+		width: 462px;
+	}
+
+	.product__img-item {
+		width: 100%;
+	}
+
+	.product__review {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
+	.product__share {
+		margin: 15px 0 0;
+	}
+
+	.product__form-select {
+		width: 150px;
+	}
+
+	.product__form-btn {
+		width: 41%;
+	}
+
+	.product__form-btn_lookbook {
+		width: 53%;
+		margin-left: 6%;
+	}
+
+	.local-stores__maps-left {
+		width: 65%;
+	}
+
+	.local-stores__maps-right {
+		width: 35%;
+		padding: 20px;
+	}
+
+	.sign-up__links {
+		flex-wrap: wrap;
+	}
+
+	.sign-up__links-text {
+		margin-top: 10px;
+		flex: 0 1 100%;
+		text-align: left;
+	}
+
+	.awards__list {
+		width: 462px;
+		margin-top: 30px;
+	}
+
+	
 }

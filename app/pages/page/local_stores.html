@@ -32,8 +32,8 @@
             </div>
             <div class="empty">
               <div class="empty_container">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 <a href="#" class="empty__link">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                   <span class="empty__link-text">empty</span>
                   <i class="fa fa-angle-down" aria-hidden="true"></i>
                 </a>
@@ -50,6 +50,7 @@
               <span class="logo__second">fashion</span>
             </a>
           </div>
+          <a href="#menu-burger" class="menu">&#9776;</a>
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item">
@@ -216,7 +217,7 @@
         </div>
       </div>
     </header>
-    <section class="local-stores">
+    <section class="local-stores" id="tabs2">
       <div class="local-stores__top">
         <div class="container">
           <ul class="local-stores__list">
@@ -225,7 +226,7 @@
               <div class="local-stores__address">180-182 Regent Street, London, W1B 5BT</div>
               <div class="local-stores__text">Lorem ipsum dolor sit amet, consectetur adipiscing esi elit. Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam erat volutpat.</div>
               <div class="local-stores__btn">
-                <a href="#" class="local-stores__link">view details</a>
+                <a href="#tabs2-1" class="local-stores__link">view details</a>
               </div>
             </li>
             <li class="local-stores__item">
@@ -233,7 +234,7 @@
               <div class="local-stores__address">109 Columbus Circle, New York, NY 10023</div>
               <div class="local-stores__text">Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.</div>
               <div class="local-stores__btn">
-                <a href="#" class="local-stores__link">view details</a>
+                <a href="#tabs2-2" class="local-stores__link">view details</a>
               </div>
             </li>
             <li class="local-stores__item">
@@ -241,7 +242,7 @@
               <div class="local-stores__address">2133 Rue Saint-Honoré, 75001 Paris</div>
               <div class="local-stores__text">Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.</div>
               <div class="local-stores__btn">
-                <a href="#" class="local-stores__link">view details</a>
+                <a href="#tabs2-3" class="local-stores__link">view details</a>
               </div>
             </li>
           </ul>
@@ -249,8 +250,8 @@
       </div>
       <div class="local-stores__bottom">
         <ul class="local-stores__maps-list">
-          <li class="local-stores__maps-item">
-            <div class="local-stores__maps-left"></div>
+          <li class="local-stores__maps-item" id="tabs2-1">
+            <div class="local-stores__maps-left" id="london-map"></div>
             <div class="local-stores__maps-right">
               <h2 class="local-stores__title">london</h2>
               <div class="local-stores__address">180-182 Regent Street, London, W1B 5BT</div>
@@ -259,6 +260,94 @@
                 <li class="local-stores__info-item">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
                   <span>180-182 Regent Street, London, W1B 5BT</span>
+                </li>
+                <li class="local-stores__info-item">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>0123-456-789</span>
+                </li>
+                <li class="local-stores__info-item">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                  <span>www.yourwebsite.com</span>
+                </li>
+                <li class="local-stores__info-item">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span>support@yourwebsite.com</span>
+                </li>
+                <li class="local-stores__info-item">
+                  <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  <span>Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</span>
+                </li>
+              </ul>
+              <ul class="local-stores__socials-list">
+                <li class="local-stores__socials-item">
+                  <a href="#" class="local-stores__socials-link local-stores__socials-link_fb"></a>
+                </li>
+                <li class="local-stores__socials-item">
+                  <a href="#" class="local-stores__socials-link local-stores__socials-link_tw"></a>
+                </li>
+                <li class="local-stores__socials-item">
+                  <a href="#" class="local-stores__socials-link local-stores__socials-link_insta"></a>
+                </li>
+                <li class="local-stores__socials-item">
+                  <a href="#" class="local-stores__socials-link local-stores__socials-link_p"></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="local-stores__maps-item" id="tabs2-2">
+            <div class="local-stores__maps-left" id="ny-map"></div>
+            <div class="local-stores__maps-right">
+              <h2 class="local-stores__title">new york</h2>
+              <div class="local-stores__address">109 Columbus Circle, New York, NY 10023</div>
+              <div class="local-stores__text">Nunc non posuere nisl. Etiam finibus vel dui nec lobortis. Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui, non sodales nisl.</div>
+              <ul class="local-stores__info-list">
+                <li class="local-stores__info-item">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>109 Columbus Circle, New York, NY 10023</span>
+                </li>
+                <li class="local-stores__info-item">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>0123-456-789</span>
+                </li>
+                <li class="local-stores__info-item">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                  <span>www.yourwebsite.com</span>
+                </li>
+                <li class="local-stores__info-item">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <span>support@yourwebsite.com</span>
+                </li>
+                <li class="local-stores__info-item">
+                  <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  <span>Monday-Friday: 9am to 6pm  Saturday: 10am to 6pm  Sunday: 10am to 2pm</span>
+                </li>
+              </ul>
+              <ul class="local-stores__socials-list">
+                <li class="local-stores__socials-item">
+                  <a href="#" class="local-stores__socials-link local-stores__socials-link_fb"></a>
+                </li>
+                <li class="local-stores__socials-item">
+                  <a href="#" class="local-stores__socials-link local-stores__socials-link_tw"></a>
+                </li>
+                <li class="local-stores__socials-item">
+                  <a href="#" class="local-stores__socials-link local-stores__socials-link_insta"></a>
+                </li>
+                <li class="local-stores__socials-item">
+                  <a href="#" class="local-stores__socials-link local-stores__socials-link_p"></a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="local-stores__maps-item" id="tabs2-3">
+            <div class="local-stores__maps-left" id="paris-map"></div>
+            <div class="local-stores__maps-right">
+              <h2 class="local-stores__title">paris</h2>
+              <div class="local-stores__address">2133 RUE SAINT-HONORÉ, 75001 PARIS</div>
+              <div class="local-stores__text">Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum ante ipsum primis in faucibus orcip luctus et ultrices posuere cubilia curae cras ligula.</div>
+              <ul class="local-stores__info-list">
+                <li class="local-stores__info-item">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>2133 RUE SAINT-HONORÉ, 75001 PARIS</span>
                 </li>
                 <li class="local-stores__info-item">
                   <i class="fa fa-phone" aria-hidden="true"></i>
@@ -302,7 +391,7 @@
       <div class="column">
         <div class="footer__top">
           <ul class="footer__list">
-            <li class="footer__item">
+            <li class="footer__item footer__item_information">
               <div class="footer__title">information</div>
               <div class="footer__links">
                 <a href="the_brand.html" class="footer__link">The brand</a>
@@ -312,7 +401,7 @@
                 <a href="#" class="footer__link">Site map</a>
               </div>
             </li>
-            <li class="footer__item">
+            <li class="footer__item footer__item_from-us">
               <div class="footer__title">Why buy from us</div>
               <div class="footer__links">
                 <a href="#" class="footer__link">Shipping & returns</a>
@@ -322,7 +411,7 @@
                 <a href="#" class="footer__link">Ethical trading</a>
               </div>
             </li>
-            <li class="footer__item">
+            <li class="footer__item footer__item_account">
               <div class="footer__title">Your account</div>
               <div class="footer__links">
                 <a href="sign_up.html" class="footer__link">Sign in</a>
@@ -333,7 +422,7 @@
                 <a href="#" class="footer__link">Update information</a>
               </div>
             </li>
-            <li class="footer__item">
+            <li class="footer__item footer__item_lookbook">
               <div class="footer__title">Lookbook</div>
               <div class="footer__links">
                 <a href="#" class="footer__link">Latest posts</a>
@@ -398,8 +487,60 @@
       </div>
     </div>
   </footer>
+
+  <div class="menu-burger popup" id="menu-burger">
+    <div class="menu-burger__top">
+      <div class="logo">
+        <a href="../index.html" class="logo__link">
+          <span class="logo__first">avenue</span>
+          <span class="logo__second">fashion</span>
+        </a>
+      </div>
+      <a href="#" class="menu-burger__close"><i class="fa fa-times menu-burger__icon" aria-hidden="true"></i></a>
+    </div>
+    <ul class="menu-burger__list">
+      <li class="menu-burger__item">
+        <a href="#" class="menu-burger__link">mens</a>
+      </li>
+      <li class="menu-burger__item">
+        <a href="#" class="menu-burger__link">womens</a>
+      </li>
+      <li class="menu-burger__item">
+        <a href="the_brand.html" class="menu-burger__link">the brand</a>
+      </li>
+      <li class="menu-burger__item">
+        <a href="local_stores.html" class="menu-burger__link">local stores</a>
+      </li>
+      <li class="menu-burger__item">
+        <a href="look_book.html" class="menu-burger__link">look book</a>
+      </li>
+    </ul>
+    <ul class="menu-burger__socials-list">
+      <li class="menu-burger__socials-item">
+        <a href="#" class="menu-burger__socials-link">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="menu-burger__socials-item">
+        <a href="#" class="menu-burger__socials-link">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="menu-burger__socials-item">
+        <a href="#" class="menu-burger__socials-link">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="menu-burger__socials-item">
+        <a href="#" class="menu-burger__socials-link">
+          <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+  </div> <!-- end menu-burger -->
   
   <script src="/js/vendor.min.js"></script>
   <script src="/js/main.min.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDitA8y_a4dG4ZI7Ui-K6GxFZymMo179NQ&callback=initMap"></script>
 </body>
 </html>

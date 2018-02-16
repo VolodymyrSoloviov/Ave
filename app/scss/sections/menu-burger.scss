@@ -1,0 +1,99 @@
+.menu-burger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	background: url(../img/bg/clothes.jpg) center center no-repeat;
+	background-size: cover;
+	padding: 40px;
+
+	.logo__first,
+	.logo__second {
+		color: $white;
+	}
+}
+
+.popup {
+	display: none;
+}
+
+.menu-burger__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 60px;	
+}
+
+.menu-burger__icon {
+	font-size: 26px;
+	color: #fff;
+	transition: .3s;
+
+	&:hover {
+		color: $aqua;
+	}
+}
+
+.menu-burger__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+.menu-burger__item {
+	position: relative;
+	margin-bottom: 20px;
+	font-size: 26px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.menu-burger__link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	transition: .3s;
+
+	&:hover {
+			color: $aqua;
+		}
+}
+
+.menu-burger__socials-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu-burger__socials-item {
+	margin-right: 30px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.menu-burger__socials-link {
+	font-size: 26px;
+	color: #fff;
+
+	i {
+		&:hover {
+			transform: scale(1.2);
+		}
+	}
+}
+
+//Стилізація fancy-box
+
+.fancybox-close-small {
+	display: none;
+}
+
