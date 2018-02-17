@@ -32,6 +32,7 @@ var moduleJs = [
   'app/js/fourth.js',
   'app/js/fivth.js',
   'app/js/sixth.js',
+  'app/js/seventh.js',
   'app/js/main.js'
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript

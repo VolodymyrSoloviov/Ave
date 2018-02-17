@@ -188,6 +188,10 @@
 .lookbook-content__items-icons_info,
 .lookbook-content__items-icons_like {
 	position: relative;
+	display: block;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
 
 	&:before {
     font-family: FontAwesome;

@@ -97,3 +97,39 @@
 	display: none;
 }
 
+//scroll-btn
+
+.scroll-btn {
+	position: fixed;	
+	bottom: -50px;
+	right: 50px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid $gray;
+	box-shadow: 0 0 13px 0 rgba(0,0,0,.4);
+	z-index: 100;
+	transition: .3s;
+	cursor: pointer;
+	transition: .3s;
+	color: $gray;
+
+	&:before {
+		font-family: FontAwesome;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    content: "\f106";
+    font-size: 30px;
+	}
+
+	&:hover {
+		border-color: $aqua;
+		color: $aqua;
+	}
+}
+
+.scroll-btn__active {
+	bottom: 50px;
+}
+
