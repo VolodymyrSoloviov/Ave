@@ -177,4 +177,18 @@
 		text-align: left;
 	}
 
+	.scroll-btn {
+		right: 15px;
+		width: 35px;
+		height: 35px;
+
+		&:before {
+			font-size: 25px;
+		}
+	}
+
+	.scroll-btn__active {
+		bottom: 15px;
+	}
+
 }
