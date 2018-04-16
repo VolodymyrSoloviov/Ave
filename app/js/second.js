@@ -1,9 +1,3 @@
-var second = (function () {
-  var init = function () {
-    console.log('works Second');
-    first.init();
-  }
-
   $(function () {
 	$('.awards__list').owlCarousel({
 		items : 3,
@@ -25,6 +19,3 @@ var second = (function () {
 		}
 	});
 });
-
-  return {init: init};
-})();

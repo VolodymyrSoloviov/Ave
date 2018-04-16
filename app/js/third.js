@@ -1,11 +1,3 @@
-var third = (function () {
-  var init = function () {
-      console.log('works third');
-    },
-    warn = function () {
-      console.info('Ахтунг !!!');
-    };
-
     $(function () {
 			var productImgCarousel = $('.product__img-list').owlCarousel({
 				items : 1,
@@ -24,6 +16,3 @@ var third = (function () {
 			});
 
 		});
-
-  return {init: init, warn: warn};
-})();

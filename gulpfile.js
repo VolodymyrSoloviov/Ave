@@ -105,7 +105,7 @@ gulp.task('styles', function(){
   .pipe(sass())
   .pipe(autoprefixer('last 2 versions'))
   .pipe(rename({suffix: '.min'}))
-  .pipe(minifycss())
+  //.pipe(minifycss())
   .pipe(gulpIf(isDevelopment, sourcemaps.write('maps')))
   .pipe(gulp.dest('dist/css'))
   .pipe(browserSync.stream())

@@ -1,8 +1,3 @@
-var first = (function () {
-  var init = function () {
-    console.log('works First');
-  }
-
   $(function () {
   	$('.menu').fancybox({
   		type : 'inline',
@@ -14,6 +9,3 @@ var first = (function () {
       $.fancybox.close();
     });
   });
-
-  return {init: init};
-})();
