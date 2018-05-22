@@ -3471,7 +3471,8 @@ h6 {
 
 .local-stores__item {
   -ms-flex: 0 1 31.62%;
-      flex: 0 1 31.62%; }
+      flex: 0 1 31.62%;
+  outline: none; }
 
 .local-stores__title {
   font-size: 18px;
@@ -4185,7 +4186,7 @@ h6 {
 .scroll-btn__active {
   bottom: 50px; }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
   .container {
     width: 1170px; } }
 

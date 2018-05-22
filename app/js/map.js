@@ -1,4 +1,8 @@
+function initMap() {}
+
 $(function() {
+  if(window.location.toString().indexOf('local_stores.html')>0)
+  {
 	var map = new google.maps.Map(document.getElementById('london-map'), {
           center: {lat: 51.5137556, lng: -0.1411031},
           zoom: 18,
@@ -190,9 +194,12 @@ $(function() {
     		icon: image
   		});
 	};
+  };
 });
 
 $(function() {
+  if(window.location.toString().indexOf('local_stores.html')>0)
+  {
 	var map = new google.maps.Map(document.getElementById('ny-map'), {
           center: {lat: 40.7679446, lng: -73.9845641},
           zoom: 18,
@@ -384,9 +391,12 @@ $(function() {
     		icon: image
   		});
 	};
+  };
 });
 
 $(function() {
+  if(window.location.toString().indexOf('local_stores.html')>0)
+  {
 	var map = new google.maps.Map(document.getElementById('paris-map'), {
           center: {lat: 48.8640047, lng: 2.3316908},
           zoom: 18,
@@ -578,4 +588,5 @@ $(function() {
     		icon: image
   		});
 	};
+  };
 });

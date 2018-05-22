@@ -26,14 +26,13 @@ const replace = require('gulp-replace');
 const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'development';
 // Пути к нашим модулям JS
 var moduleJs = [
-  'app/js/first.js', 
-  'app/js/second.js', 
-  'app/js/third.js',
-  'app/js/fourth.js',
-  'app/js/fivth.js',
-  'app/js/sixth.js',
-  'app/js/seventh.js',
-  'app/js/main.js'
+  'app/js/menu-burger.js', 
+  'app/js/awards-carousel.js', 
+  'app/js/product-carousel.js',
+  'app/js/product-tabs.js',
+  'app/js/local-tabs.js',
+  'app/js/map.js',
+  'app/js/scroll-btn.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [
